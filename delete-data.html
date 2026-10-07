@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delete your data - Dreadcam</title><link rel="canonical" href="https://batuayhan.github.io/dreadcam-legal/delete-data.html">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:#1a1a1a;background:#fff;padding:24px 20px 64px;max-width:680px;margin:0 auto;-webkit-font-smoothing:antialiased}
+h1{font-size:26px;margin-bottom:6px;color:#111}.upd{font-size:14px;color:#666;margin-bottom:24px}
+h2{font-size:19px;margin:30px 0 10px;color:#222}p{font-size:15px;margin-bottom:14px;color:#333}
+ul{margin:8px 0 14px 20px;font-size:15px;color:#333}li{margin-bottom:6px}a{color:#2563eb}
+.box{background:#f0f7ff;border-left:4px solid #3b82f6;padding:14px 16px;margin:16px 0;border-radius:4px}.box p{margin:0;font-size:14px;color:#1e3a5f}
+.warn{background:#fef9ee;border-left-color:#f59e0b}.warn p{color:#78350f}
+nav{display:flex;justify-content:space-between;gap:12px;font-size:14px;margin-bottom:20px;flex-wrap:wrap}
+.lang a{font-weight:600}
+@media (prefers-color-scheme:dark){body{background:#121212;color:#e8e8e8}h1,h2{color:#fff}p,ul{color:#d0d0d0}.upd{color:#999}a{color:#7ab0ff}.box{background:#16263d}.box p{color:#cfe0f7}.warn{background:#33280f}.warn p{color:#f5dcae}}</style></head><body>
+<nav><a href="index.html">Home</a><span><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a></span></nav>
+<h1>Delete your Dreadcam data</h1><p class="upd">Last updated: October 7, 2026</p>
+<p>Dreadcam has no accounts and no sign-up, so there is no account to close. This page says what Dreadcam stores, how to ask us to delete it, and what is deleted. It follows the <a href="privacy.html">Privacy Policy</a> (sections 2 to 8).</p>
+<div class="box"><p><b>To request deletion:</b> e-mail <a href="mailto:support@neron.app?subject=Dreadcam%20data%20deletion">support@neron.app</a> with the subject "Dreadcam data deletion" and include the share link of your picture or its job ID, if you have it. Result files are also deleted automatically 30 days after they are made.</p></div>
+<h2>What Dreadcam stores</h2>
+<p><b>On our server (Google Firebase, region europe-west1):</b></p>
+<ul><li><b>Result files</b> for each picture made: a preview, a still image and a short GIF. They are made from your photo, so they show what is in it. They are kept in Google Cloud Storage behind time-limited private links.</li>
+<li><b>A job record</b> for each picture: type of figure, time, cost, technical checks, and the number of faces your phone found (a count only).</li>
+<li><b>Counts tied to a hashed identifier.</b> There are no accounts. The App sends a device identifier, and a purchase identifier is made from it; our server stores both only as salted, one-way hashes, with counts such as free pictures used and paid single pictures used.</li>
+<li><b>Reports</b> you send from inside the App: the picture's job ID, type of figure, random seed, your reason, an optional note, the hashed device identifier and the time.</li>
+<li><b>Daily totals</b> with nothing about you: how many times shared links were opened per day, and our daily spend.</li></ul>
+<p>We do <b>not</b> store the photo you choose, and we do not store or log the AI model's picture. We do not use your photos to train any model.</p>
+<p><b>On your phone:</b> a device identifier, a flag that onboarding was seen, and small counters for the review prompt. If you chose to save a result to your photo library, that copy is a file on your phone and is not stored by us.</p>
+<h2>What gets deleted when you ask</h2>
+<ul><li>The result files for the pictures you name (the share link or job ID tells us which).</li>
+<li>The job records for those pictures.</li>
+<li>Any reports you sent about them.</li></ul>
+<p>Result files are deleted automatically 30 days after creation. The storage service has soft-delete protection on, so a deleted file may stay recoverable by us for a limited time before it is permanently removed. The job record and any report are not deleted automatically; we delete them on request.</p>
+<h2>What we may not be able to find or delete</h2>
+<div class="box warn"><p>Because the stored identifier is hashed and the App does not show it to you, we usually cannot find your results by device. Without a share link or job ID, we may not be able to match a request to your pictures, and if we cannot, we will tell you so.</p></div>
+<ul><li><b>Hashed counters</b> (free pictures used, purchase counts) hold only numbers, no photo. They exist to enforce one free picture per device and to count paid single pictures.</li>
+<li><b>Daily totals</b> (shared-link opens, spend) are not linked to you.</li>
+<li><b>Uninstalling the App</b> deletes what is on your phone but does not delete result files on our server.</li></ul>
+<h2>Data held by service providers</h2>
+<ul><li><b>fal.ai</b> receives the photo for the safety check and for finding where people are, and, in some pictures, a second copy with people and faces painted over and the model's answer. It keeps uploaded files under its own terms: <a href="https://fal.ai/privacy">fal.ai/privacy</a>.</li>
+<li><b>RevenueCat</b> holds the hashed purchase identifier and your purchase information: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</li>
+<li><b>Google Firebase Analytics and Crashlytics</b> hold usage events and crash traces under a random app-instance identifier: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</li>
+<li><b>Apple App Store and Google Play</b> process payments under their own policies; we never see your card. Deleting the App does not cancel a subscription; cancel it in your App Store or Google Play settings.</li></ul>
+<p>Tell us in your e-mail if your request also concerns these providers and we will reply with what we can and cannot do. Depending on where you live (EEA/UK GDPR, California CCPA, Turkish KVKK No. 6698 or other laws) you may also ask about, correct or delete information we hold, and you may complain to your local data protection authority.</p>
+<h2>Contact</h2>
+<p><a href="mailto:support@neron.app">support@neron.app</a></p>
+</body></html>
